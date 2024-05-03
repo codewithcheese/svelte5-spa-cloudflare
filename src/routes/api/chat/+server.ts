@@ -12,7 +12,7 @@ export const POST = (async ({ request }) => {
   const { messages } = (await request.json()) as any;
 
   const result = await streamText({
-    model: openai("gpt-4-turbo-preview"),
+    model: openai("gpt-3.5-turbo"),
     messages,
   });
 
