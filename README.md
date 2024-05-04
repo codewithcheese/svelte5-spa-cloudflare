@@ -2,7 +2,7 @@
 
 This is a starter kit for a Svelte 5 SPA on Cloudflare Pages.
 
-- [Svelte](https://svelte.dev/)
+- [Svelte 5](https://svelte-5-preview.vercel.app/docs/introduction)
 - [SvelteKit](https://kit.svelte.dev/)
 - [Cloudflare Pages](https://pages.cloudflare.com/)
 - [Vercel AI SDK](https://sdk.vercel.ai/docs/introduction)
