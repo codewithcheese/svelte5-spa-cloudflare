@@ -1,5 +1,5 @@
 {
-  "name": "cloudflare-sveltekit-first-app",
+  "name": "svelte5-spa-cloudflare",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -41,9 +41,7 @@
     "bits-ui": "^0.21.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "kysely": "^0.27.3",
     "lucide-svelte": "^0.378.0",
-    "sqlocal": "^0.8.0",
     "tailwind-merge": "^2.3.0",
     "tailwind-variants": "^0.2.1",
     "zod": "^3.23.6"

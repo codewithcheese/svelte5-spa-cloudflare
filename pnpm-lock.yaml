@@ -26,15 +26,9 @@ dependencies:
   clsx:
     specifier: ^2.1.1
     version: 2.1.1
-  kysely:
-    specifier: ^0.27.3
-    version: 0.27.3
   lucide-svelte:
     specifier: ^0.378.0
     version: 0.378.0(svelte@5.0.0-next.123)
-  sqlocal:
-    specifier: ^0.8.0
-    version: 0.8.0(kysely@0.27.3)
   tailwind-merge:
     specifier: ^2.3.0
     version: 2.3.0
@@ -941,11 +935,6 @@ packages:
     dev: true
     optional: true
 
-  /@sqlite.org/sqlite-wasm@3.45.2-build1:
-    resolution: {integrity: sha512-TeQf8rNFQna8pg95IshtpXkhdMq1iNAXllCoNrhEn18660Hbal9yxKAYv+ZfC1kjfdEXMK6V0XanfX5OT5FyMw==}
-    hasBin: true
-    dev: false
-
   /@sveltejs/adapter-auto@3.2.0(@sveltejs/kit@2.5.7):
     resolution: {integrity: sha512-She5nKT47kwHE18v9NMe6pbJcvULr82u0V3yZ0ej3n1laWKGgkgdEABE9/ak5iDPs93LqsBkuIo51kkwCLBjJA==}
     peerDependencies:
@@ -1804,11 +1793,6 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /kysely@0.27.3:
-    resolution: {integrity: sha512-lG03Ru+XyOJFsjH3OMY6R/9U38IjDPfnOfDgO3ynhbDr+Dz8fak+X6L62vqu3iybQnj+lG84OttBuU9KY3L9kA==}
-    engines: {node: '>=14.0.0'}
-    dev: false
-
   /lilconfig@2.1.0:
     resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==}
     engines: {node: '>=10'}
@@ -2425,22 +2409,6 @@ packages:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
     deprecated: Please use @jridgewell/sourcemap-codec instead
     dev: true
-
-  /sqlocal@0.8.0(kysely@0.27.3):
-    resolution: {integrity: sha512-E8Zb3waRk6CuO0AVHNphnhLv79f8iWk8YG0TQ1dvb+aFT0UeQSOfcU5fiKiwrtaNEvAd94SZSNJ0AZ6laH6Pvw==}
-    peerDependencies:
-      drizzle-orm: '*'
-      kysely: '*'
-    peerDependenciesMeta:
-      drizzle-orm:
-        optional: true
-      kysely:
-        optional: true
-    dependencies:
-      '@sqlite.org/sqlite-wasm': 3.45.2-build1
-      kysely: 0.27.3
-      nanoid: 5.0.7
-    dev: false
 
   /sswr@2.0.0(svelte@5.0.0-next.123):
     resolution: {integrity: sha512-mV0kkeBHcjcb0M5NqKtKVg/uTIYNlIIniyDfSGrSfxpEdM9C365jK0z55pl9K0xAkNTJi2OAOVFQpgMPUk+V0w==}
